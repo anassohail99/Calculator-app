@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="icons8-plus-minus-48.png">
+    <link
+      href="https://fonts.googleapis.com/css?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="background">
+        <div class="container">
+          <div class="screen">
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                <div class="app-title">
+                  <div class="animated infinite pulse">
+                    Student <br> Grade <br> Calcy
+                  </div>
+                </div>
+              </div>
+              <div class="screen-body-item">
+                <div class="app-form">
+                  <div class="app-form-group">
+                    <input type="text" class="app-form-control" placeholder="Subject 1" id="wd">
+                  </div>
+                  <div class="app-form-group">
+                    <input  type="text"  class="app-form-control"   placeholder="Subject 2" id="maths">
+                  </div>
+                   <div class="app-form-group">
+                    <input  type="text"  class="app-form-control"   placeholder="Subject 3" id="comp">
+                  </div>
+                  <div class="app-form-group">
+                    <input  type="text"  class="app-form-control"   placeholder="Subject 4 " id="phy" >
+                  </div>
+                  <div > 
+                    <input type="button" name="" value="showPercentage" class="app-form-button" onclick="calcy()">
+                  </div>            
+                </div>
+            </div>
+      
+          </div>
+            <div class="app-form-group showdata">
+                    <p id="showData" >  </p>
+           </div>
+        </div>
+      </div>
+      <script src="app.js"></script>
+  </body>
+</html>
